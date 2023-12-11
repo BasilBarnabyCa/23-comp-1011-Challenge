@@ -23,4 +23,9 @@ public class Course {
     public int getGrade() {
         return grade;
     }
+
+    @Override
+    public String toString() {
+        return String.format(this.getCourseCode());
+    }
 }
